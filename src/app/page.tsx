@@ -1,12 +1,12 @@
 // src/app/page.tsx
 
-import HeroSection from "@/../src/components/herosection";
-import WhatWeBuildSection from "@/../src/components/WhatWeBuildSection";
-import HowWeDeliverSection from "@/../src/components/HowWeDeliverSection";
-import SystemsShowcaseSection from "@/components/SystemsShowcaseSection";
-import TechStackSection from "@/components/TechStackSection";
-import TestimonialsSection from "@/components/TestimonialsSection";
-import Footer from "@/components/Footer";
+import HeroSection from "@/components/home/herosection";
+import WhatWeBuildSection from "@/components/home/WhatWeBuildSection";
+import HowWeDeliverSection from "@/components/home/HowWeDeliverSection";
+import SystemsShowcaseSection from "@/components/home/SystemsShowcaseSection";
+import TechStackSection from "@/components/home/TechStackSection";
+import TestimonialsSection from "@/components/home/TestimonialsSection";
+import Footer from "@/components/home/Footer";
 
 export default function HomePage() {
   return (
@@ -17,7 +17,7 @@ export default function HomePage() {
       <HowWeDeliverSection />
       <TechStackSection />
       <TestimonialsSection />
-      <Footer />
+      
     </main>
   );
 }
