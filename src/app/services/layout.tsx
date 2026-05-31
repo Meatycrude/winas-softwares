@@ -10,7 +10,6 @@ export default function RootLayout({
     <html lang="en">
       <NavbarSection />
       <body className="min-h-full flex flex-col">{children}</body>
-      <Footer />
     </html>
   );
 }
