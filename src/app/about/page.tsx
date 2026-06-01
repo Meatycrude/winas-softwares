@@ -119,7 +119,7 @@ export default function AboutPage() {
 
             <div className="absolute bottom-0 left-10 right-10 overflow-hidden rounded-[36px] bg-slate-950 p-3 shadow-2xl">
               <video
-                src="/videos/about-video.mp4"
+                src="/videos/About.mp4"
                 autoPlay
                 muted
                 loop
