@@ -28,25 +28,25 @@ const products = [
   {
     icon: Hotel,
     title: "Hotel & Restaurant POS",
-    image: "/images/services/hotel-pos.jpg",
+    image: "/images/services/hotel pos.jpg",
     text: "Waiter touch terminals, kitchen display, table billing and shift management.",
   },
   {
     icon: ShoppingCart,
     title: "Supermarket POS",
-    image: "/images/services/supermarket-pos.jpg",
+    image: "/images/services/supermarketpos.jpg",
     text: "Fast checkout, barcode scanning, multi-cashier support and KRA-ready invoicing.",
   },
   {
     icon: BadgeCheck,
     title: "Pharmacy POS",
-    image: "/images/services/pharmacy-pos.jpg",
+    image: "/images/services/pharmacypos.jpg",
     text: "Batch tracking, expiry alerts, prescription support and stock control.",
   },
   {
     icon: PackageSearch,
     title: "Hardware Management",
-    image: "/images/services/hardware.jpg",
+    image: "/images/services/hardware managemnt.jpg",
     text: "SKUs by category, supplier ledgers, quotations, receipts and stock movement.",
   },
   {
@@ -58,13 +58,13 @@ const products = [
   {
     icon: ShoppingBag,
     title: "Boutique Management",
-    image: "/images/services/boutique.jpg",
+    image: "/images/services/boutiquemanagement.jpg",
     text: "Product variants by size and colour, layby, customer accounts and loyalty.",
   },
   {
     icon: Truck,
     title: "Fleet Management",
-    image: "/images/services/fleet.jpg",
+    image: "/images/services/fleet management.jpg",
     text: "Vehicle scheduling, trip logs, fuel tracking and maintenance records.",
   },
   {
@@ -118,7 +118,6 @@ const features = [
 export default function ServicesPage() {
   return (
     <main className="overflow-hidden bg-slate-100">
-      {/* HERO */}
       <section className="relative px-4 pb-24 pt-16">
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_left,rgba(255,15,123,0.16),transparent_30%),radial-gradient(circle_at_bottom_right,rgba(14,165,233,0.18),transparent_35%)]" />
 
@@ -157,7 +156,7 @@ export default function ServicesPage() {
 
           <div className="relative overflow-hidden rounded-[44px] bg-slate-950 p-4 shadow-2xl">
             <video
-              src="/videos/services-video.mp4"
+              src="/videos/video3.mp4"
               autoPlay
               muted
               loop
