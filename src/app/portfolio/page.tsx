@@ -15,7 +15,7 @@ const projects = [
     title: "Comrades Computer",
     category: "Corporate Website",
     url: "comradescomputer.co.ke",
-    image: "/images/portfolio/comrades.jpg",
+    image: "/images/portfolio/comrades.png",
     icon: Globe,
     description:
       "Corporate website for our parent company — IT services, sales and support across Kenya.",
@@ -24,7 +24,7 @@ const projects = [
     title: "Greenstar Villa Homes",
     category: "Property Management",
     url: "greenstarvillahomes.co.ke",
-    image: "/images/portfolio/greenstar.jpg",
+    image: "/images/portfolio/greenstart.png",
     icon: Building2,
     description:
       "Property listing and booking platform for premium villa homes.",
@@ -32,8 +32,8 @@ const projects = [
   {
     title: "Tripple E Electronics",
     category: "E-commerce",
-    url: "trippleelectronics.com",
-    image: "/images/portfolio/tripple.jpg",
+    url: "trippleeelectronics.com",
+    image: "/images/portfolio/tripple-e.png",
     icon: ShoppingBag,
     description:
       "Full e-commerce store for an electronics retailer with M-Pesa checkout.",
@@ -42,7 +42,7 @@ const projects = [
     title: "JM Collections",
     category: "Online Store",
     url: "jmcollections.co.ke",
-    image: "/images/portfolio/jmcollections.jpg",
+    image: "/images/portfolio/jmcollections.png",
     icon: ShoppingBag,
     description:
       "Boutique online store with product variants and customer accounts.",
@@ -51,7 +51,7 @@ const projects = [
     title: "Toto Baby Shop",
     category: "E-commerce",
     url: "totobabyshop.co.ke",
-    image: "/images/portfolio/toto.jpg",
+    image: "/images/portfolio/gitenga (2).png",
     icon: ShoppingBag,
     description:
       "Specialty baby and maternity online shop with delivery management.",
@@ -60,7 +60,7 @@ const projects = [
     title: "Getenga General Stores",
     category: "Online Store",
     url: "getengageneralstores.co.ke",
-    image: "/images/portfolio/getenga.jpg",
+    image: "/images/portfolio/gitenga (1).png",
     icon: MonitorSmartphone,
     description: "General merchandise online catalogue and ordering system.",
   },
@@ -101,12 +101,12 @@ export default function PortfolioPage() {
                   index === 0 || index === 3 ? "lg:col-span-1" : ""
                 }`}
               >
-                <div className="relative h-72 overflow-hidden">
+                <div className="relative h-72 top-0 overflow-hidden">
                   <Image
                     src={project.image}
                     alt={project.title}
                     fill
-                    className="object-cover transition duration-700 group-hover:scale-105"
+                    className="object-contain transition duration-700  group-hover:scale-105"
                   />
 
                   <div className="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-slate-950/10 to-transparent" />

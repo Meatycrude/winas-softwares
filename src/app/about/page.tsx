@@ -41,13 +41,13 @@ const team = [
     name: "Azenga Kevin",
     role: "Chief Technology Officer",
     phone: "+254 114 023 230",
-    image: "/images/team/kevin.jpg",
+    image: "/images/about/Azenga kevin.jpg",
   },
   {
     name: "Harrison Opondo",
     role: "Software Developer (Attaché)",
     phone: "Winas Software Team",
-    image: "/images/team/harrison.jpg",
+    image: "/images/about/harrison.jpeg",
   },
 ];
 
@@ -119,7 +119,7 @@ export default function AboutPage() {
 
             <div className="absolute bottom-0 left-10 right-10 overflow-hidden rounded-[36px] bg-slate-950 p-3 shadow-2xl">
               <video
-                src="/videos/About.mp4"
+                src="/videos/video1.mp4"
                 autoPlay
                 muted
                 loop
@@ -139,7 +139,7 @@ export default function AboutPage() {
         <div className="mx-auto grid max-w-7xl gap-10 lg:grid-cols-[0.9fr_1.1fr]">
           <div className="relative overflow-hidden rounded-[40px] bg-slate-950 p-4 shadow-2xl">
             <video
-              src="/videos/story-video.mp4"
+              src="/videos/video2.mp4"
               autoPlay
               muted
               loop
@@ -321,7 +321,7 @@ export default function AboutPage() {
 
             <div className="relative h-80 overflow-hidden rounded-[36px]">
               <Image
-                src="/images/about/about-cta.jpg"
+                src="/images/services/inventory.jpg"
                 alt="Winas software systems"
                 fill
                 className="object-cover"
