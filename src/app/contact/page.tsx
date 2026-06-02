@@ -208,37 +208,7 @@ export default function ContactPage() {
         </div>
       </section>
 
-      <section className="px-4 pb-24">
-        <div className="mx-auto max-w-7xl rounded-[44px] bg-[#ff0f7b] p-10 text-white shadow-2xl md:p-16">
-          <div className="grid gap-10 lg:grid-cols-[1.2fr_0.8fr] lg:items-center">
-            <div>
-              <p className="mb-4 text-sm font-black uppercase tracking-[0.25em] text-pink-100">
-                Start today
-              </p>
-
-              <h2 className="text-4xl font-black tracking-tight md:text-6xl">
-                Your next system starts with one message.
-              </h2>
-
-              <p className="mt-6 max-w-2xl text-lg leading-8 text-pink-50">
-                Send your idea, business type, or problem. We’ll help you turn
-                it into a working software solution.
-              </p>
-            </div>
-
-            <div className="flex lg:justify-end">
-              <a
-                href="https://wa.me/254705079270"
-                target="_blank"
-                rel="noreferrer"
-                className="inline-flex items-center gap-2 rounded-full bg-white px-8 py-4 font-black text-[#ff0f7b] transition hover:scale-105"
-              >
-                Message Winas <ArrowRight size={18} />
-              </a>
-            </div>
-          </div>
-        </div>
-      </section>
+      
     </main>
   );
 }
