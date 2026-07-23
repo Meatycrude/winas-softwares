@@ -30,9 +30,10 @@ export default function HeroSection() {
               <Image
                 src="/public/images/hero/download.png"
                 alt="Winas Softwares Logo"
+
                 width={42}
                 height={42}
-                className="rounded-xl object-contain"
+                className=" object-contain"
               />
 
               <div className="text-lg font-bold sm:text-xl">
