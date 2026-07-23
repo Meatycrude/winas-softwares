@@ -28,18 +28,18 @@ export default function HeroSection() {
           <nav className="relative mb-16 flex items-center justify-between">
             <a href="#home" className="flex items-center gap-3">
               <Image
-                src="/public/images/hero/download.png"
+                src="/images/hero/download.png"
                 alt="Winas Softwares Logo"
 
-                width={42}
-                height={42}
+                width={152}
+                height={152}
                 className=" object-contain"
               />
 
-              <div className="text-lg font-bold sm:text-xl">
+             {/* <div className="text-lg font-bold sm:text-xl">
                 <span className="text-[#ff0f7b]">WINAS</span>
                 <span className="text-slate-700"> Softwares</span>
-              </div>
+              </div>*/}
             </a>
 
             <div className="hidden items-center gap-10 text-sm font-medium text-slate-700 md:flex">
