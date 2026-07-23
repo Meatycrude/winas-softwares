@@ -22,7 +22,7 @@ export default function NavbarSection() {
       <nav className="mx-auto flex max-w-7xl items-center justify-between bg-white/95 px-5 py-3 ">
         <Link href="/" className="flex items-center gap-3">
           <Image
-            src="/images/logo.png"
+            src="/images/hero/download.png"
             alt="Winas Softwares Logo"
             width={42}
             height={42}
