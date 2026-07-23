@@ -28,7 +28,7 @@ export default function HeroSection() {
           <nav className="relative mb-16 flex items-center justify-between">
             <a href="#home" className="flex items-center gap-3">
               <Image
-                src="/images/logo.png"
+                src="/public/images/hero/download.png"
                 alt="Winas Softwares Logo"
                 width={42}
                 height={42}
