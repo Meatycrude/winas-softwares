@@ -154,20 +154,7 @@ export default function SystemsShowcaseSection() {
         </div>
 
         {/* MOBILE EXTRA SUMMARY */}
-        <div className="mt-10 rounded-[32px] bg-white p-6 shadow-xl lg:hidden">
-          <h3 className="text-2xl font-black text-slate-950">
-            Built for real business operations.
-          </h3>
-
-          <p className="mt-3 leading-7 text-slate-600">
-            Add your local video at{" "}
-            <span className="font-bold text-[#ff0f7b]">
-              public/videos/system-demo.mp4
-            </span>
-            . It can be a dashboard recording, website preview, POS walkthrough
-            or animated tech video.
-          </p>
-        </div>
+        
       </div>
     </section>
   );
