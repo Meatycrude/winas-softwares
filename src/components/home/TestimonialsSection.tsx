@@ -47,7 +47,7 @@ export default function TestimonialsSection() {
     <section className="relative overflow-hidden bg-slate-100 px-4 py-24">
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(255,15,123,0.14),transparent_30%),radial-gradient(circle_at_bottom_left,rgba(14,165,233,0.16),transparent_35%)]" />
 
-      <div className="absolute right-4 top-8 h-28 w-28  md:h-32 md:w-32 overflow-hidden rounded-[32px] shadow-2xl md:block lg:right-16 lg:h-44 lg:w-44">
+      <div className="absolute right-4 top-8 h-22 w-22  md:h-32 md:w-32 overflow-hidden rounded-[32px] shadow-2xl md:block lg:right-16 lg:h-44 lg:w-44">
         <Image
           src="/images/testimonials/happyclient.jpg"
           alt="Happy client"
