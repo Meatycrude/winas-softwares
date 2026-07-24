@@ -70,7 +70,7 @@ export default function HeroSection() {
             </button>
 
             {menuOpen && (
-              <div className="absolute left-0 right-0 top-16 z-50 rounded-3xl border border-slate-200 bg-white p-5 shadow-xl md:hidden">
+              <div className="absolute left-0 right-0 top-26 z-50 rounded-3xl border border-slate-200 bg-white p-5 shadow-xl md:hidden">
                 <div className="flex flex-col gap-3 text-sm font-semibold text-slate-700">
                   {navLinks.map((link) => (
                     <a
