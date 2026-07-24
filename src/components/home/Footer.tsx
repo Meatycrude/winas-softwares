@@ -67,8 +67,7 @@ export default function Footer() {
           <div>
             <Link href="/" className="mb-6 flex items-center gap-3">
               <Image
-                src="/images/hero/download.png
-                "
+                src="/images/hero/download.png"
                 alt="Winas Softwares Logo"
                 width={48}
                 height={48}
