@@ -19,7 +19,7 @@ export default function NavbarSection() {
 
   return (
     <header className="relative z-50 w-full px-4 pt-6">
-      <nav className="mx-auto flex max-w-7xl items-center justify-between bg-white/95 px-5 py-3 ">
+      <nav className="mx-auto flex max-w-7xl items-center fixed justify-between bg-white/95 px-5 py-3 ">
         <Link href="/" className="flex items-center gap-3">
           <Image
             src="/images/hero/download.png"
