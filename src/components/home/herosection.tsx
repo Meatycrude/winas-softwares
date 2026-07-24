@@ -8,7 +8,7 @@ export default function HeroSection() {
   const [menuOpen, setMenuOpen] = useState(false);
 
   const navLinks = [
-    { name: "Home", href: "/home" },
+    { name: "Home", href: "/" },
     { name: "About", href: "/about" },
     { name: "Services", href: "/services" },
     { name: "Portfolio", href: "/portfolio" },
