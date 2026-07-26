@@ -19,7 +19,7 @@ export default function NavbarSection() {
 
   return (
     <header className="relative  z-50 fixed w-full px-4 pt-6">
-      <nav className="mx-auto flex max-w-7xl items-center  justify-between bg-white/95 px-5 py-3 ">
+      <nav className="mx-auto flex max-w-7xl items-center sticky  justify-between bg-white/95 px-5 py-3 ">
         <Link href="/" className="flex items-center gap-3">
           <Image
             src="/images/hero/download.png"
@@ -49,7 +49,7 @@ export default function NavbarSection() {
 
         <Link
           href="/contact"
-          className="hidden rounded-full border border-slate-300 px-6 py-2 text-sm font-semibold text-slate-800 transition hover:border-[#ff0f7b] hover:text-[#ff0f7b] md:inline-flex"
+          className="hidden rounded-full border border-slate-300 px-6 py-2 text-sm font-semibold text-slate-700 transition hover:border-[#ff0f7b] hover:text-[#ff0f7b] md:inline-flex"
         >
           Get a Quote
         </Link>
